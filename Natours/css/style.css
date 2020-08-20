@@ -1,0 +1,82 @@
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  font-size: 16px;
+  color: #777;
+}
+.header {
+  height: 95vh;
+  margin: 30px;
+  background-image: url(../img/bGimg.jpg);
+  background-size: cover;
+  background-position: top;
+  color: #777;
+  position: relative;
+}
+.logo-box {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.logo {
+  height: 45px;
+  width: auto;
+}
+.text-box {
+  top: 40%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  align-items: center;
+}
+
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase;
+}
+.heading-primary--main {
+  display: block;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 35px;
+}
+.heading-primary--sub {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 12.4px;
+}
+.btn,
+.btn:link,
+.btn:visited {
+  padding: 15px 40px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+
+}
+.btn-white {
+  color: #777;
+  background-color: #fff;
+}
+ 

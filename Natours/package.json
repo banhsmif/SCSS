@@ -1,0 +1,11 @@
+{
+  "name": "Natours",
+  "version": "1.0.0",
+  "description": "Natours landing page",
+  "main": "index.js",
+  "author": "banhsmif",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
