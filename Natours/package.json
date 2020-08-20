@@ -4,6 +4,9 @@
   "description": "Natours landing page",
   "main": "index.js",
   "author": "banhsmif",
+  "scripts": {
+    "compile:sass" :"node-sass sass/main css/style.css -w"
+  },
   "license": "MIT",
   "dependencies": {
     "node-sass": "^4.14.1"

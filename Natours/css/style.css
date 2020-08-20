@@ -5,6 +5,10 @@ Light green: #7ed56f
 Medium green: #55c57a
 Dark green: #28b485
 
+Light Brown: #f0ece3
+Medium Brown :#dfd3c3
+Dark Brown: #c7b198
+
 */
 * {
   margin: 0;
@@ -73,10 +77,9 @@ html {
   display: inline-block;
   font-size: 16px;
   border: none;
-
 }
 .btn-white {
   color: #777;
   background-color: #fff;
 }
- 
+
